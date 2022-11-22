@@ -1,0 +1,9 @@
+.section_container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: grid;
+  place-content: center;
+}

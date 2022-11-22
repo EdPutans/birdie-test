@@ -1,0 +1,6 @@
+.moodchart_container {
+  max-width: 650px;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+}
