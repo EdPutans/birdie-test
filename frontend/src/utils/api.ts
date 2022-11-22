@@ -17,7 +17,6 @@ export async function getCareRecipientMood(
   const response = await fetch(aggregatedURL);
   const data = await response.json();
 
-  console.log({ data });
   return data as { data: MoodRecord[] };
 }
 
@@ -29,6 +28,5 @@ export async function getCareRecipientIds() {
   const response = await fetch(aggregatedURL);
   const data = await response.json();
 
-  console.log({ data });
   return data as { data: Uuid[] };
 }
